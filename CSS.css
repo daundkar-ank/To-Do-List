@@ -1,0 +1,114 @@
+/* for whole webpage */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* for body */
+body{
+    background-color: rgba(167, 26, 97, 0.801);
+    min-height: 100vh;
+}
+/* for header */
+.header{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(124, 192, 223);
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+/* for Status */
+.column{
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    display: inline-table;
+}
+.row{
+    display: inline-table;
+    width: 100%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h3{
+    margin: 10px;
+    padding: 5px 100px;
+}
+#c-1{
+    background-color: #ed8077;
+    height: 500px;
+}
+#c-2{
+    background-color: #4488c5;
+    height: 500px;
+}
+#c-3{
+    background-color: #5eb5a6;
+    height: 500px;
+}
+.txtbx{
+    float: left;
+    width: 35%;
+    border: none;
+    border-bottom: 2px solid black;
+    background: #ecf0e6;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    opacity: 0.5;
+}
+.img{
+    width: 10%;
+    background: #c4d3ab;
+    outline: none;
+    font-size: 18px;
+}
+.task{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    text-align: left;
+}
+.task .btn{
+    cursor: pointer;
+    display: inline-block;
+}
+.btn{
+    float: right;
+}
+#c-3 .task{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#img{
+    font-size: 12px;
+}
+.add{
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+    background: #222;
+    color: white;
+    font-size: 12px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    opacity: .8;
+    border-radius: 3px;
+}
+.submit{
+    margin: -50px;
+    background: #222;
+    color: white;
+    font-size: 12px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    opacity: .8;
+    border-radius: 3px;
+}
